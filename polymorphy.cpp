@@ -3,9 +3,28 @@ using namespace std;
 
 class seseorang
 {
+public :
     //virtual void pesan() = 0;
     virutal void pesan()
     {
-        cout << "Pesan dari seseorang" << end
+        cout << "Pesan dari seseorang" << endl;
     }
 };
+
+class lia : public seseorang
+{
+public:
+    void pesan()
+    {
+        cout << "Pesan dari Joko" << endl;
+    }
+};
+
+class lia : public seseorang
+{
+public:
+   void pesan()
+   {
+       cout << "Pesan dari Lia" << endl;
+   }
+}
